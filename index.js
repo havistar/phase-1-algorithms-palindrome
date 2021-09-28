@@ -1,11 +1,13 @@
-function isPalindrome(word) {
+function isPalindrome(string) {
   // Write your algorithm here
+  return string === string.split("").reverse().join("")
 }
 
 /* 
   Add your pseudocode here
 */
-
+isPalindrome("tacocat")
+isPalindrome("pizzacat")
 /*
   Add written explanation of your solution here
 */
